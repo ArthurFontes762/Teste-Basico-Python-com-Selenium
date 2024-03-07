@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # Configura o path para o chromedriver.exe (ou chromedriver para Linux/Mac) 
 # Site para baixar chromedriver.exe para testes: https://chromedriver.chromium.org/downloads
-service = Service(executable_path='C:\\Users\\LabInfo\\Downloads\\Teste de Python com Selenium\\chromedriver.exe') # Sempre usando aspas duplas (\\)
+service = Service(executable_path='C:\\') # Sempre usando aspas duplas (\\)
 options = webdriver.ChromeOptions()
 
 # Inicializa o WebDriver (o chromedriver é baixado automaticamente) 
